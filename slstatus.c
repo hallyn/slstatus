@@ -1,25 +1,10 @@
 /* See LICENSE file for copyright and license details. */
 
-#include <alsa/asoundlib.h>
-#include <arpa/inet.h>
-#include <fcntl.h>
-#include <ifaddrs.h>
-#include <limits.h>
-#include <linux/wireless.h>
-#include <locale.h>
-#include <netdb.h>
-#include <pwd.h>
+#include <errno.h>
 #include <stdarg.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <sys/ioctl.h>
-#include <sys/stat.h>
-#include <sys/statvfs.h>
-#include <sys/socket.h>
-#include <sys/sysinfo.h>
-#include <sys/types.h>
-#include <time.h>
 #include <unistd.h>
 #include <X11/Xlib.h>
 

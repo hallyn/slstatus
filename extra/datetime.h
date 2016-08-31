@@ -1,3 +1,5 @@
+#include <time.h>
+
 static char *
 datetime(const char *timeformat)
 {

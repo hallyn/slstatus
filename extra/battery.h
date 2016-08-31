@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <string.h>
+
 static char *
 battery_perc(const char *battery)
 {

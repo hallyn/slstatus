@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 static char *
 run_command(const char* command)
 {

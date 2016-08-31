@@ -1,3 +1,5 @@
+#include <unistd.h>
+
 static char *
 gid(void)
 {

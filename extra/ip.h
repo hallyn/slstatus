@@ -1,3 +1,10 @@
+#include <ifaddrs.h>
+#include <netdb.h>
+#include <stdio.h>
+#include <string.h>
+#include <sys/socket.h>
+#include <sys/types.h>
+
 static char *
 ip(const char *interface)
 {

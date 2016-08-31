@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 static char *
 ram_free(void)
 {

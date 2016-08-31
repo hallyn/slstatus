@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <sys/statvfs.h>
+
 static char *
 disk_free(const char *mountpoint)
 {

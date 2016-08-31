@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 static char *
 temp(const char *file)
 {

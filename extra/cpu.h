@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 static char *
 cpu_perc(void)
 {

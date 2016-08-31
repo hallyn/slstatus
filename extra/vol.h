@@ -1,3 +1,5 @@
+#include <alsa/asoundlib.h>
+
 static char *
 vol_perc(const char *soundcard)
 {

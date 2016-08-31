@@ -1,3 +1,8 @@
+#include <pwd.h>
+#include <stdio.h>
+#include <sys/types.h>
+#include <unistd.h>
+
 static char *
 username(void)
 {

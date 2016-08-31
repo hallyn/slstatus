@@ -1,3 +1,5 @@
+#include <sys/sysinfo.h>
+
 static char *
 uptime(void)
 {

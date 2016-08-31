@@ -1,3 +1,8 @@
+#include <linux/wireless.h>
+#include <stdio.h>
+#include <string.h>
+#include <sys/ioctl.h>
+
 static char *
 wifi_perc(const char *wificard)
 {
