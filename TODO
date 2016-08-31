@@ -1,3 +1,3 @@
 [*] rearrange headers between slstatus.c and extra/*.h
 [ ] Test the 'extra' extensions for any missing headers (SOMEONE PLEASE DO IT!)
-[ ] Open files only once and then only read from them when the function is called (I'LL DO THIS)
+[*] Open files only once and then only read from them when the function is called (UNNEEDED)
