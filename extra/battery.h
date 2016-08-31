@@ -7,12 +7,14 @@ battery_perc(const char *battery)
 	int now, full, perc;
 	char batterynowfile[64];
 	char batteryfullfile[64];
-	FILE *fp = fopen(batterynowfile, "r");
+	FILE *fp;
 
 	strlcpy(batterynowfile, BATTERY_PATH, sizeof(batterynowfile));
 	strlcat(batterynowfile, battery, sizeof(batterynowfile));
 	strlcat(batterynowfile, "/", sizeof(batterynowfile));
 	strlcat(batterynowfile, BATTERY_NOW, sizeof(batterynowfile));
+
+	fp = fopen(batterynowfile, "r");
 
 	strlcpy(batteryfullfile, BATTERY_PATH, sizeof(batteryfullfile));
 	strlcat(batteryfullfile, battery, sizeof(batteryfullfile));
